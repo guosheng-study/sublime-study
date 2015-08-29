@@ -175,4 +175,66 @@ _.each(list, function(value, key, list){
 ```
 更多介绍：https://packagecontrol.io/packages/TortoiseSVN
 
+###8.BracketHighlighter
+括号匹配功能很不错，还可以配置颜色。
+安装完成后，打开Preferences -> package settings -> Bracket Highlighter -> Bracket Settings – User (注意是user)，然后添加如下代码
+```
+{
+    "bracket_styles": {
+        "default": {
+            "icon": "dot",
+            // "color": "entity.name.class",
+            "color": "brackethighlighter.default",
+            "style": "highlight"
+        },
+ 
+        "unmatched": {
+            "icon": "question",
+            "color": "brackethighlighter.unmatched",
+            "style": "highlight"
+        },
+        "curly": {
+            "icon": "curly_bracket",
+            "color": "brackethighlighter.curly",
+            "style": "highlight"
+        },
+        "round": {
+            "icon": "round_bracket",
+            "color": "brackethighlighter.round",
+            "style": "highlight"
+        },
+        "square": {
+            "icon": "square_bracket",
+            "color": "brackethighlighter.square",
+            "style": "highlight"
+        },
+        "angle": {
+            "icon": "angle_bracket",
+            "color": "brackethighlighter.angle",
+            "style": "highlight"
+        },
+        "tag": {
+            "icon": "tag",
+            "color": "brackethighlighter.tag",
+            "style": "highlight"
+        },
+        "single_quote": {
+            "icon": "single_quote",
+            "color": "brackethighlighter.quote",
+            "style": "highlight"
+        },
+        "double_quote": {
+            "icon": "double_quote",
+            "color": "brackethighlighter.quote",
+            "style": "highlight"
+        },
+        "regex": {
+            "icon": "regex",
+            "color": "brackethighlighter.quote",
+            "style": "outline"
+        }
+    }
+}
+```
+
 
