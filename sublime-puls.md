@@ -1,6 +1,6 @@
 #sublime 常用插件
 
-###emmet
+###1.emmet
 概括地说，Emmet（译者注：前身就是以前大名鼎鼎的Zen Coding，这个如果你没听说和使用过，就悲哀了）是一个可以让你更快更高效地编写HTML和CSS，节省你大量时间的插件。怎么使用？你只需按约定的缩写形式书写而不用写整个代码，然后按“扩展”键，这些缩写就会自动扩展为对应的代码内容。 比如，你只需要输入
 ```html
 ((h4>a[rel=external])+p>img[width=500 height=320])*12
@@ -14,3 +14,15 @@ GitHub : https://github.com/sergeche/emmet-sublime
 下载地址：https://github.com/emmetio/pyv8-binaries#readme   
 下载之后解压到Sublime Text 3的安装目录
 
+###2.DocBlockr
+DocBlockr 可以使你很方便地对代码建立文档。它会解析函数，变量，和参数，根据它们自动生成文档范式，你的工作就是去填充对应的说明。在js里面输入/**然后按一下Tab键就好。
+```js
+/**
+ * @param  {[type]}
+ * @param  {[type]}
+ * @return {[type]}
+ */
+function foo(n, m) {
+    return n + m;
+}
+```
