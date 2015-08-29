@@ -5,7 +5,7 @@ http://www.sublimetext.com/
 http://www.sublimetext.com/2  
 http://www.sublimetext.com/3  
 
-###注册码：
+###注册码（仅供个人非商业应用）
 ```html
 ----- BEGIN LICENSE ------ 
 Alexander 
@@ -20,8 +20,9 @@ A76A6EA3 E1A1CA7A DC1F2703 14,897,784
 078A8A20 70EEA791 84F48C1E 8ABA7DEB 
 0B3907C0 C9A3523B 0091A045 6F67AED8 
 ------ END LICENSE ------
+```
 
-
+```html
 ----- BEGIN LICENSE -----
 Andrew Weber
 Single User License
