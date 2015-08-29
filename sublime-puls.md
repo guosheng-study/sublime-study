@@ -108,7 +108,8 @@ CSS格式化，必备插件之一,安装完毕之后设定快捷键，然后就�
 
 ###4.jsFormat
 有了这个插件，可以写出看上去比较整齐的代码了。安装之后的快捷键是ctrl+alt+f
-不过我习惯把他设置保存的时候，自动格式化
+不过我习惯把他设置保存的时候，自动格式化。
+更多介绍：https://packagecontrol.io/packages/JsFormat
 ```
 {
     // exposed jsbeautifier options
