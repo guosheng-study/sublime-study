@@ -236,5 +236,6 @@ _.each(list, function(value, key, list){
     }
 }
 ```
+更多介绍：http://facelessuser.github.io/BracketHighlighter/
 
 
