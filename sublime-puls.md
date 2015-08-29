@@ -139,6 +139,7 @@ CSS格式化，必备插件之一,安装完毕之后设定快捷键，然后就�
 
 ###5.jQuery语法提示
 安装此插件后，输入$.each然后按几下Tab可以体验一下。
+更多介绍：https://packagecontrol.io/packages/jQuery
 ```js
 $.each(function(index, el) {
 	
@@ -154,3 +155,24 @@ _.each(list, function(value, key, list){
 
 });
 ```
+###7.TortoiseSVN
+公司用这个，那就装一下这个插件。
+需要配置TortoiseSVN安装地址，不然会用不了
+```js
+//"Preferences->Package Settings->TortoiseSVN->Settings - User" in the menu.
+{
+  // Auto close update dialog when no errors, conflicts and merges
+  "autoCloseUpdateDialog": false,
+  "tortoiseproc_path": "C:\\Program Files\\TortoiseSVN\\bin\\TortoiseProc.exe"
+}
+```
+
+方便很多。这个插件装好之后有个快捷键
+```
+ - [alt+c] : commit current file.   
+ - [alt+u] : update current file.  
+ - [alt+r] : revert current file.  
+```
+更多介绍：https://packagecontrol.io/packages/TortoiseSVN
+
+
