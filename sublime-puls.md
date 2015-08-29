@@ -6,6 +6,11 @@
 ((h4>a[rel=external])+p>img[width=500 height=320])*12
 ```
 然后它会被扩展转换成12个列表项和紧随其后的图像。然后你就可以在此基础上再填写内容，就这么简单。   
-官网：http://emmet.io/
-语法：http://docs.emmet.io/abbreviations/syntax/
-GitHub : https://github.com/sergeche/emmet-sublime
+官网：http://emmet.io/   
+语法：http://docs.emmet.io/abbreviations/syntax/  
+GitHub : https://github.com/sergeche/emmet-sublime  
+
+注意：sublime text 3可能提示让你下载pyv8这样的东西   
+下载地址：https://github.com/emmetio/pyv8-binaries#readme   
+下载之后解压到Sublime Text 3的安装目录
+
