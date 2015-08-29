@@ -53,7 +53,7 @@ import urllib2,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a309809
 按下Ctrl+Shift+P调出命令面板，输入install， 调出 Install Package 选项并回车，然后在列表中选中要安装的插件。
 
 ###常用插件
-
+[点击查看插件介绍](sublime-puls.md)
 
 
 ###相关网址
