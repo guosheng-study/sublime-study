@@ -109,9 +109,19 @@ CSS格式化，必备插件之一,安装完毕之后设定快捷键，然后就�
 ###4.jsFormat
 
 ###5.jQuery语法提示
-安装此插件后，输入$.each然后按5下Tab可以体验一下。
+安装此插件后，输入$.each然后按几下Tab可以体验一下。
 ```js
 $.each(function(index, el) {
 	
+});
+```
+
+###6.underscorejs snippets
+安装此插件后，输入_each然后按几下Tab可以体验一下。
+```js
+_.each(list, function(value, key, list){
+
+	// body
+
 });
 ```
