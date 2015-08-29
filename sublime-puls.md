@@ -26,3 +26,82 @@ function foo(n, m) {
     return n + m;
 }
 ```
+
+
+###3.cssFormat
+CSS格式化，必备插件之一,安装完毕之后设定快捷键如下：
+```
+[
+	// Convert to Expanded Format
+	{
+		"keys": ["ctrl+alt+["],
+		"command": "css_format",
+		"args": {
+			"action": "expand"
+		}
+	},
+
+	// Convert to expanded format (break selectors)
+	{
+		"keys": ["ctrl+alt+b"],
+		"command": "css_format",
+		"args": {
+			"action": "expand-bs"
+		}
+	},
+
+	// Convert to Expanded Format (Break Selectors)
+	{
+		"keys": ["ctrl+alt+v"],
+		"command": "css_format",
+		"args": {
+			"action": "expand-bs"
+		}
+	},
+
+	// Convert to Compact Format
+	{
+		"keys": ["ctrl+alt+]"],
+		"command": "css_format",
+		"args": {
+			"action": "compact"
+		}
+	},
+
+	// Convert to Compact Format (No Spaces)
+	{
+		"keys": ["ctrl+alt+n"],
+		"command": "css_format",
+		"args": {
+			"action": "compact-ns"
+		}
+	},
+
+	// Convert to Compact Format (Break Selectors)
+	{
+		"keys": ["ctrl+alt+b"],
+		"command": "css_format",
+		"args": {
+			"action": "compact-bs"
+		}
+	},
+
+	// Convert to Compact Format (Break Selectors and No Spaces)
+	{
+		"keys": ["ctrl+alt+m"],
+		"command": "css_format",
+		"args": {
+			"action": "compact-bs-ns"
+		}
+	},
+
+	// Convert to Compressed Format
+	{
+		"keys": ["ctrl+alt+\\"],
+		"command": "css_format",
+		"args": {
+			"action": "compress"
+		}
+	}
+]
+···
