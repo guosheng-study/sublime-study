@@ -240,13 +240,13 @@ _.each(list, function(value, key, list){
 
 ###9.SublimeTmpl
 一直都很奇怪为什么sublime text 3没有新建文件模板的功能，像html头部的DTD声明每次都要复制粘贴。用SublimeTmpl这款插件终于可以解脱了，SublimeTmpl能新建html、css、javascript、php、python、ruby六种类型的文件模板，所有的文件模板都在插件目录的templates文件夹里，可以自定义编辑文件模板。
-···
+```
 ctrl+alt+h html
 ctrl+alt+j javascript
 ctrl+alt+c css
 ctrl+alt+p php
 ctrl+alt+r ruby
 ctrl+alt+shift+p python
-···
+```
 如果想要新建其他类型的文件模板的话，先自定义文件模板方在templates文件夹里，再分别打开Default (Windows).sublime-keymap、Default.sublime-commands、Main.sublime-menu、SublimeTmpl.sublime-settings这四个文件照着里面的格式自定义想要新建的类型
 
