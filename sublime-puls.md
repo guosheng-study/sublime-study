@@ -280,3 +280,14 @@ To toggle between snake_case, camelCase and PascalCase: "ctrl-shift-_"
     }
 ```
 
+
+###11.LiveStyle
+解决两个问题：
+1、每次修改样式，查看修改结果的时候都需要刷新一下页面才能看到。  
+2、调试页面再chrome下修改的样式不能同步到原始文件中，要照着chrome中调试好的，再去原始文件再去敲一遍。  
+
+当然光是装了sublime text的插件还不行，另外还得装chrome对应的插件
+插件地址：http://www.crx4chrome.com/crx/993/
+
+
+
