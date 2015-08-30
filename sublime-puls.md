@@ -263,3 +263,20 @@ To separate words: "ctrl+alt+c", "ctrl+alt+w"
 to separate with slashes: "ctrl+alt+c", "ctrl+alt+/"
 To toggle between snake_case, camelCase and PascalCase: "ctrl-shift-_"
 ```
+不过上面上面的快捷有冲突我自己定义了一下
+```
+{
+        "keys": ["ctrl+k", "ctrl+u"],
+        "command": "convert_to_snake"
+    }, {
+        "keys": ["ctrl+k", "ctrl+k"],
+        "command": "convert_to_camel"
+    }, {
+        "keys": ["ctrl+k", "ctrl+j"],
+        "command": "convert_to_pascal"
+    }, {
+        "keys": ["ctrl+k", "ctrl+n"],
+        "command": "convert_to_dot"
+    }
+```
+
