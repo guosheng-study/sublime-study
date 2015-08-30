@@ -250,3 +250,16 @@ ctrl+alt+shift+p python
 ```
 如果想要新建其他类型的文件模板的话，先自定义文件模板方在templates文件夹里，再分别打开Default (Windows).sublime-keymap、Default.sublime-commands、Main.sublime-menu、SublimeTmpl.sublime-settings这四个文件照着里面的格式自定义想要新建的类型
 
+
+###10.Case Conversion
+是不是有人忽略了大小写转化？这个插件帮助你节约宝贵时间。
+```
+To snake_case: "ctrl+alt+c", "ctrl+alt+s"
+To camelCase: "ctrl+alt+c", "ctrl+alt+c"
+To PascalCase: "ctrl+alt+c", "ctrl+alt+p"
+To dot.case: "ctrl+alt+c", "ctrl+alt+d"
+To dash-case: "ctrl+alt+c", "ctrl+alt+h"
+To separate words: "ctrl+alt+c", "ctrl+alt+w"
+to separate with slashes: "ctrl+alt+c", "ctrl+alt+/"
+To toggle between snake_case, camelCase and PascalCase: "ctrl-shift-_"
+```
