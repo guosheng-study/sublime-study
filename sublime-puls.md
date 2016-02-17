@@ -290,4 +290,9 @@ To toggle between snake_case, camelCase and PascalCase: "ctrl-shift-_"
 插件地址：http://www.crx4chrome.com/crx/993/
 
 
+###12. SideBarEnhancements
+SideBarEnhancements本是增强侧边栏的插件，里面有一个将图片直接转成base64也很不错。
+
+
+
 
